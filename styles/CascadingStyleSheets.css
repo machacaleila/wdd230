@@ -1,3 +1,15 @@
-html {
-    background-color: #5E4B56;
-  }
+.box-1{
+  display: flex; 
+  align-items: center;
+  background-color: #4682B4;
+  padding: 10px 20px;
+  max-width: 540px;
+}
+.text-1{
+margin-left:10px;
+color: white;
+}
+.image-1{
+flex-shrink: 0;
+
+}
