@@ -1,5 +1,2 @@
-function()
-{
-var x = document.lastModified;
-document.getElementById("update").innerhtml= x;
-}
+var date = Document.lastModified;
+      Document.getElementById("modify").innerHTML = "The document was last modified on : " + date;
