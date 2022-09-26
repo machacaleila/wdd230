@@ -3,7 +3,7 @@
   align-items: center;
   background-color: #4682B4;
   padding: 10px 20px;
-  max-width: 540px;
+  max-width: 450px;
 }
 .text-1{
   margin-left:10px;
@@ -13,3 +13,17 @@
   flex-shrink: 0;
 
 }  
+footer {
+  padding: 10px 20px;
+  max-width: 450px;
+  background-color: #4682B4;
+  display: flex;
+  justify-content: space-around;
+  
+}
+footer p{
+  color: white;
+  align-self: center;
+  line-height: 20pt;
+}
+
