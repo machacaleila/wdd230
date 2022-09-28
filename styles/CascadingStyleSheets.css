@@ -4,6 +4,8 @@
   background-color: #4682B4;
   padding: 10px 20px;
   max-width: 450px;
+  border-radius: 10px;
+  box-shadow: rgb(183, 180, 180) 0em 0em 0.5em 0.5em;
 }
 .text-1{
   margin-left:10px;
@@ -11,19 +13,28 @@
 }
 .image-1{
   flex-shrink: 0;
-
+  box-shadow: rgb(158, 155, 155)0em 0em 0.2em 0.2em;
+  
 }  
 footer {
-  padding: 10px 20px;
+  padding: 20px;
   max-width: 450px;
   background-color: #4682B4;
   display: flex;
-  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgb(183, 180, 180) 0em 0em 0.5em 0.5em;
+  justify-content: absolute;
+
+}
+.name {
+  color: white;
+  align-items: center;
   
 }
-footer p{
-  color: white;
-  align-self: center;
-  line-height: 20pt;
+.date{
+  color: yellow; 
+  align-items:center;
+   
 }
+
 
